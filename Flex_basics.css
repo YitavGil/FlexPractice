@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    height: 50vh;
+    background-color: cornsilk;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.item {
+   
+    text-align: center;
+    width: 140px;
+    height: 120px;
+    margin: 40px;
+
+    
+
+}
+
+.item-1 {
+    background-color: green;
+}
+.item-2 {
+    background-color: blue;
+}
+.item-3 {
+    background-color: red;
+}
